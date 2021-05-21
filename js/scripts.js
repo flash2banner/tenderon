@@ -62,7 +62,12 @@ $(document).ready(function() {
     })
 
 
-
+    // Клик на карточку календаря + модальное окно
+    $(".calendar__card").click(function() {
+        $(".calendar__card").removeClass("calendar__card--active")
+        $(this).addClass("calendar__card--active");
+        $(".calendar__drop").show(300);
+    })
 
 
     // Брэйкпоинты js

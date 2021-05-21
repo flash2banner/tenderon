@@ -511,7 +511,3 @@ a {
         background-color: inherit;
     }
 }
-
-.header__logo svg {
-    color: unset;
-}
